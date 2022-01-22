@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ffff00f8;
+  }
+  #main-heading {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    width: 90%;
+  }
+  #main-heading h1 {
+    font-weight: 900;
+    margin: 0px;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  #middle-heading {
+    padding: 10px 0px;
+    width: 90%;
+    background-color: rgba(245, 251, 255, 255);
+    text-align: center;
+    margin: 10px 0px;
+  }
+  #middle-heading h1 {
+    font-weight: 900;
+    margin: 0px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  #middle-heading a {
+    font-size: 24px;
+    display: block;
+    font-weight: 900;
+    text-decoration: none;
+    color: rgba(1, 0, 255, 255);
+  }
+  #content {
+    width: 90%;
+    font-size: 16px;
+    font-weight: 600;
+    word-spacing: 2px;
+    margin-bottom: 250px;
+  }
+  footer a {
+    font-size: 20px;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgba(53, 95, 235, 255);
+    margin-bottom: 20px;
+  }
+  .slider {
+    text-align: center;
+    width: 100%;
+    background-color: rgba(252, 208, 0, 255);
+  }
+  .slider div {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(192, 157, 0, 255);
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .slider div:hover {
+    background-color: black;
+  }
